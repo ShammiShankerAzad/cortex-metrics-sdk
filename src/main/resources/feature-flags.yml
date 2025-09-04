@@ -1,0 +1,18 @@
+metrics:
+  enabled: true
+  jvm:
+    enabled: true
+
+formats:
+  prometheus:
+    enabled: true
+  opentelemetry:
+    enabled: false
+
+buffer:
+  enabled: true
+retry:
+  enabled: true
+health:
+  check:
+    enabled: true
